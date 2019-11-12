@@ -1,3 +1,69 @@
-html, body{
-    height: 100%;
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.navTop {
+  width: 100%;
+  height: 100px;
+  background-color: forestgreen;
+  display: flex;
+  padding-left: 450px;
+}
+.navBox {
+  height: 50px;
+  width: 150px;
+  margin: 25px;
+  border: solid 1px black;
+  background-color: white;
+}
+.imgBox {
+  height: 50px;
+  width: 150px;
+  margin: 25px;
+  padding-left: 1050px;
+}
+.mMid {
+  width: 100%;
+  height: 750px;
+  background-color: orange;
+  display: flex;
+}
+footer {
+  display: flex;
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: palevioletred;
+  display: flex;
+  flex-direction: column;
+}
+.mBox {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  width: 200px;
+  margin-left: 250px;
+  margin-top: 75px;
+  flex-direction: column;
+}
+.bBox {
+  width: 400px;
+  height: 750px;
+  background-color: blue;
+}
+.bBox ul {
+  list-style-type: none;
+}
+main {
+  display: flex;
+}
+button {
+  padding: 15px;
+  box-shadow: black 5px 5px;
+  flex-direction: row;
+  margin-top: 75px;
+  margin-left: 10px;
 }
