@@ -1,3 +1,22 @@
-html, body{
-    height: 100%;
+html,
+body {
+  height: 100%;
+  background-color: orange;
+  margin: 0%;
+  padding: 0%;
+}
+.navContainer {
+  height: 1000px;
+  padding: 0px;
+  width: 500px;
+  background-color: green;
+}
+.navBox {
+  height: 100px;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 95px;
+  border: solid 1px black;
+  background-color: white;
+  display: inline-block;
 }
